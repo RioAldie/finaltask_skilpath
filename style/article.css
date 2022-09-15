@@ -1,0 +1,29 @@
+.article{
+    width: 735px;
+    max-height: 120vh;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 150px;
+}
+.article .title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    color: #105FA1;
+    width: 100%;
+}
+.article .content{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+}

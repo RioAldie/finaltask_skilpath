@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    padding:0
+}
+.body{
+    margin: 0;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.btn-join{
+    width: 240px;
+    height: 45px;
+    background: #105fa1;
+    border-radius: 16px 2px;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    color: #fff;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.btn-join:hover{
+    background: #0b497b;
+}
+.space-strip{
+    margin-top: 100px;
+}
+.modal{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.395);
+    z-index: 10000;
+    margin-top: 0;
+    justify-content: center;
+    align-items: center;
+    
+}
+.active{
+    display: none;
+}
+
+.modal .content{
+    width: 500px;
+    height: 500px;
+    background: #fff;
+    position: fixed;
+    box-shadow: 0px 4px 14px 1px #C4C4C4;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    
+    box-sizing: border-box;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.modal .content .title{
+    font-family: 'Roboto';
+    font-size: 25px;
+    font-weight: 600;
+    color: #105fa1;
+}
+.modal .content .data{
+    border: solid #105fa1 5px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+    border-radius: 16px 2px;
+}
+.modal .content .btn-confirm{
+    width: 200px;
+    height: 40px;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 500;
+    background: #0070B6;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+form{
+    width: 400px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    border: 9px solid #0070B6;
+    box-shadow: 0px 4px 14px 1px #C4C4C4;
+    border-radius: 6px 50px;
+    align-items: center;
+    justify-content: space-evenly;
+    top: 100px;
+    position: sticky;
+}
+form p{
+    font-size: 24px;
+    font-weight: 500;
+    color: #0070B6;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+form .input{
+    width: 343px ;
+    height: 50px;
+    background: #C4C4C421;
+    border: 2px solid #F0E9E9;
+    border-radius: 6px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+form .input-checkbox{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    font-size: 14px;
+    color: #000;
+    font-family: 'Roboto', sans-serif;   
+}

@@ -1,0 +1,47 @@
+header{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+header .hero{
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    max-width: 524px;
+    height: 143px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+header .hero .title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 75px;
+    color: #0070B6;
+    width: 524px;
+    height: 95px;
+    margin: 0;
+}
+header .hero .subtitle{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #9a9a9a;
+    width: 307px;
+    height: 48px;
+    margin-top: 10px;
+}
+header .video-thumb{
+ 
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+header .video-thumb video{
+    width: 100%;
+}
